@@ -1,0 +1,4 @@
+**/.idea
+**/.vscode
+**/apache_airflow_
+**/__pycache__
