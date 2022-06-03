@@ -10,7 +10,7 @@ Both process does advocate for the moving data from a source(s) platform to othe
 ## Project Objective:
 
 #### To demonstrate a simple ETL or EtLT for Data Replication job.
-![FLOWCHART](https://cloud.smartdraw.com/share.aspx/?pubDocShare=6156598A5A49A89459277F1DD49204CE23D)
+![FLOWCHART](/assets/flow.jpg)
 
 **ETL --** Extraction-Transform-Load, a classical approach.
 
