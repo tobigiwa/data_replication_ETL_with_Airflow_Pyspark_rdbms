@@ -42,15 +42,15 @@ Both process does advocate for the moving data from a source(s) platform to othe
 
 4.  Edit line 7 of `sourcing_and_setting_up_db.py` to include the **absolute path of the cloned repo**.
 
-5.  Move only `dag.py` to `~/airflow/dags/` folder to be detectable by your Airflow Scheduler.
+5.  Move only `dag.py` to  `~/airflow/dags/` folder to be detectable by your Airflow Scheduler.
    
 6.  If just want to read through, I'll recommend using the jupyter note `.ipynb` but if you are interested in the workflow, follow the `.py` and do tigger the dag manually in your Airflow web UI or edit `dag.py` to schedule your runs.
    
 7.  To run your jupyter note in either Jupyter or VS code with your virtual env, you need to run this two lines on your bash while your virtual env is activated:
    
-   > `$ pip install ipykernel`
+   > $ pip install ipykernel
    
-   > `$ ipython kernel install --user --name=<any_name>`. 
+   > $ ipython kernel install --user --name=<any_name>. 
     
  Remember to select the installed kernel in the Anaconda Jupyter Notebook
 
