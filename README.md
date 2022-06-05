@@ -52,7 +52,7 @@ Both process does advocate for the moving data from a source(s) platform to othe
    
    > `$ ipython kernel install --user --name=<any_name>`. 
     
-    Remember to select the installed kernel in the Anaconda Jupyter Notebook
+ Remember to select the installed kernel in the Anaconda Jupyter Notebook
 
 ## Improving our project:
 *  We can improve the project by expanding our source dataset and bringing Spark to it power with more complex transformation.
