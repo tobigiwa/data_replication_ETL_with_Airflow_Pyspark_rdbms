@@ -3,7 +3,7 @@
 ## Project Description:
 This is a simple project that showcase one of the most predominant job of a Data Engineer -- `DATA REPLICATION`. Data replication should not be confused with `Data Migration`, which in most case is **carried out once** and the **source database system** is abandoned after the task is finished.
 
-> __Data Replication often refers to the `periodic copying of data` from a data source on one platform to a destination on another one `without discarding the data source`.__ 
+__Data Replication often refers to the `periodic copying of data` from a data source on one platform to a destination on another one `without discarding the data source`.__ 
 
 Both process does advocate for the moving data from a source(s) platform to other destination(s) platform.
 
@@ -12,9 +12,9 @@ Both process does advocate for the moving data from a source(s) platform to othe
 #### To demonstrate a simple ETL or EtLT for Data Replication job.
 ![FLOWCHART](/assets/flow.jpg)
 
-**ETL --** Extraction-Transform-Load, a classical approach.
+> **ETL --** Extraction-Transform-Load, a classical approach.
 
-**EtLT --** Extraction-(minor transformation e.g validation checks, reduplication)-Load-Transformation. Cases including EtLT arises if the Data Analysts is charged with implementing/Transforming the business logic into the data schema.
+> **EtLT --** Extraction-(minor transformation e.g validation checks, reduplication)-Load-Transformation. Cases including EtLT arises if the Data Analysts is charged with implementing/Transforming the business logic into the data schema.
 
 *  Use python, to **Populate** (using the `faker library`) our source relational database (MySQL)
 
@@ -27,10 +27,10 @@ Both process does advocate for the moving data from a source(s) platform to othe
 *  Use python, to **Orchestrate** the workflow with Apache Airflow
 
 ## Technologies/Packages/Tools:
-* > Relational Database -- Postgres, MySQL
-* > Processing/Transformation -- Apache Spark
-* > Workflow -- Apache Airflow
-* > Language -- Python
+*  Relational Database -- Postgres, MySQL
+*  Processing/Transformation -- Apache Spark
+*  Workflow -- Apache Airflow
+*  Language -- Python
   
 ## Setup/How to RUN the program:
 
@@ -55,9 +55,9 @@ Both process does advocate for the moving data from a source(s) platform to othe
     Remember to select the installed kernel in the Anaconda Jupyter Notebook
 
 ## Improving our project:
-* > We can improve the project by expanding our source dataset and bringing Spark to it power with more complex transformation.
+*  We can improve the project by expanding our source dataset and bringing Spark to it power with more complex transformation.
   
-* > We can include cloud services (e.g AWS EMR, AWS AURORA) at any stage of our ETL/EtLT
+*  We can include cloud services (e.g AWS EMR, AWS AURORA) at any stage of our ETL/EtLT
 
 Having any issues, reach me at this [email](oluwatobitobias@gmail.com). More is definitely coming, do come back to check them out.
 
