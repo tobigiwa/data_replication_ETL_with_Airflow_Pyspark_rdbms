@@ -1,20 +1,25 @@
 # Learning Data Engineering
 
 ## Project Description:
-This is a simple project that showcase one of the most predominant job of a Data Engineer -- `DATA REPLICATION`. Data replication should not be confused with `Data Migration`, which in most case is **carried out once** and the **source database system** is abandoned after the task is finished.
+This is a simple project that showcase one of the most predominant ETL/ELT jobs of a Data Engineer -- `DATA REPLICATION`. Data replication should not be confused with `DATA MIGRATION`, which in most case is **carried out once** and the **source database system** is abandoned after the task is finished.
 
 __Data Replication often refers to the `periodic copying of data` from a data source on one platform to a destination on another one `without discarding the data source`.__ 
 
 Both process does advocate for the moving data from a source(s) platform to other destination(s) platform.
+
+
+ **ETL -- Extraction-Transform-Load, a classical approach.**
+
+ **EtLT -- Extraction-t(minor transformation e.g validation checks, reduplication)-Load-Transformation. Cases including EtLT arises if the Data Analysts is charged instead with implementing/Transforming the business logic into the data schema not the Data Engineer.**
+
+### Level:
+Early-Intermediate Friendly :sunglasses: :sunglasses:
 
 ## Project Objective:
 
 #### To demonstrate a simple ETL or EtLT for Data Replication job.
 ![FLOWCHART](/assets/flow.jpg)
 
-> **ETL -- Extraction-Transform-Load, a classical approach.**
-
-> **EtLT -- Extraction-(minor transformation e.g validation checks, reduplication)-Load-Transformation. Cases including EtLT arises if the Data Analysts is charged with implementing/Transforming the business logic into the data schema.**
 
 *  Use python, to **Populate** (using the **`faker library`**) our source relational database (MySQL)
 
@@ -26,12 +31,18 @@ Both process does advocate for the moving data from a source(s) platform to othe
 
 *  Use python, to **Orchestrate** the workflow with Apache Airflow
 
-## Technologies/Packages/Tools:
+## Technologies/Packages/Tools used:
 *  Relational Database -- Postgres, MySQL
-*  Processing/Transformation -- Apache Spark
-*  Workflow -- Apache Airflow
-*  Language -- Python
-  
+*  Big Data Processing Tool -- Apache Spark
+*  Workflow and Orchestration -- Apache Airflow
+*  Languages -- Python and SQL
+
+## Language requirement:
+A good understanding of these syntax style in python and SQL would help:
+* python class (named attributes and methods)
+* python decorators
+* python try/exception block
+* SQL DDL syntax
 ## Setup/How to RUN the program:
 
 1.  Install and setup Apache Airflow, Do check the internet for more information, but I'll recommend this [Medium article](https://link.medium.com/beMBbKPQxqb) for Ubuntu (all Linux actually, I'll assume :nerd_face: :nerd_face:). **Note**, _no need to install extra dependencies with airflow, **`pyspark`** and **`sklearn`** are not needed_.
