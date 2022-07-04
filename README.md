@@ -39,8 +39,6 @@ Early-Intermediate Friendly :sunglasses: :sunglasses:
 
 ## Language requirement:
 A good understanding of these syntax style in python and SQL would help:
-* python class (named attributes and methods)
-* python decorators
 * python try/exception block
 * SQL DDL syntax
 ## Setup/How to RUN the program:
