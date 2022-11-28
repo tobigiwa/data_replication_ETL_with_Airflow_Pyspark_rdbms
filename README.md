@@ -1,4 +1,4 @@
-# Learning Data Engineering
+# ETL process (Data Engineering )
 
 ## Project Description:
 This is a simple project that showcase one of the most predominant ETL/ELT jobs of a Data Engineer -- `DATA REPLICATION`. Data replication should not be confused with `DATA MIGRATION`, which in most case is **carried out once** and the **source database system** is abandoned after the task is finished.
