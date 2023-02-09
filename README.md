@@ -68,7 +68,6 @@ A good understanding of these syntax style in python and SQL would help:
   
 *  We can include cloud services (e.g AWS EMR, AWS AURORA) at any stage of our ETL/EtLT
 
-Having any issues, reach me at this [email](oluwatobitobias@gmail.com). More is definitely coming, do come back to check them out.
 
 Now go get your cup of coffee/tea and enjoy a good code-read and criticism. :+1: :+1:
 
